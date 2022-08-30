@@ -23,6 +23,7 @@ public class Principal {
 						+ " 9 - Encerrar"
 						+ ""));
 				
+			//CHAMA PROCESSOS
 			switch(opcao) {
 				case 1: controller.listaProcesso();		// LISTAR PROCESSOS ATIVOS EM SEU SISTEMA OPERACIONAL
 				break;
