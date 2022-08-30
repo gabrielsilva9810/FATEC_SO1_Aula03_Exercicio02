@@ -57,7 +57,7 @@ public class KillController {
 					System.out.println(linha); // IMPRIME A LINHA
 					linha = buffer.readLine(); // REGISTRA A LINHA NO BUFFER
 				}
-
+				
 				// TERMINOU? -> FECHAR TUDO
 				buffer.close();
 				leitor.close();
@@ -104,7 +104,7 @@ public class KillController {
 
 	}
 
-//-------------------------------------------------------------------------------------------------------------//
+//------------------------------------------------------------------------------------------------------//
 // 3) MATA PROCESSO POR PID
 	public void killPid(String matar) {
 		String os = os(); // NOME DO SISTEMA OPERACIONAL
@@ -201,5 +201,3 @@ public class KillController {
 
 	}
 }
-
-//-------------------------------------------------------------------------------------------------------------//		
